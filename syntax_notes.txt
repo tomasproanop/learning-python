@@ -1,0 +1,31 @@
+python syntax notes
+
+string.find(value, start, end) 
+
+
+-----
+
+
+py
+# Write your solution here
+# You can test your function by calling it within the following block
+if __name__ == "__main__":
+    sentence = "it was a dark and stormy python"
+    print(first_word(sentence))
+    print(second_word(sentence))
+    print(last_word(sentence))
+
+
+my_string = input("Please type in a string: ")
+print(my_string[::-1])
+Please type in a string: exemplary 
+yralpmexe
+
+
+my_string = "exemplary"
+print(my_string[0:9:2])
+my_list = [1,2,3,4,5,6,7,8]
+print(my_list[6:2:-2])
+#output
+#eepay
+#[7, 5]
